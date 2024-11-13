@@ -4463,6 +4463,9 @@ self.C3_JsPropNameTable = [
 	{Текст12: 0},
 	{Kot: 0},
 	{Laymiki: 0},
+	{Barabulka: 0},
+	{zrya2: 0},
+	{pukofruktpoop: 0},
 	{приветствие: 0},
 	{Видео: 0},
 	{Имя: 0},
@@ -4508,7 +4511,10 @@ self.InstanceType = {
 	Диз: class extends self.ISpriteInstance {},
 	Текст12: class extends self.ITextInstance {},
 	Kot: class extends self.IIframeInstance {},
-	Laymiki: class extends self.IIframeInstance {}
+	Laymiki: class extends self.IIframeInstance {},
+	Barabulka: class extends self.IIframeInstance {},
+	zrya2: class extends self.IIframeInstance {},
+	pukofruktpoop: class extends self.IIframeInstance {}
 }
 }
 
@@ -4669,6 +4675,12 @@ self.C3_ExpressionFuncs = [
 		() => 4,
 		() => "Анимация 4",
 		() => 5,
+		() => "Анимация 5",
+		() => 6,
+		() => "Анимация 6",
+		() => 7,
+		() => "Анимация 7",
+		() => 8,
 		() => "",
 		() => "чтение",
 		() => "Автор: Tugabum",
@@ -4679,7 +4691,10 @@ self.C3_ExpressionFuncs = [
 		() => "Кот мяукает",
 		() => "Автор: Крутойчелиу999",
 		() => "Лаймеке",
-		() => "Автор: МАКС НА 100"
+		() => "Автор: МАКС НА 100",
+		() => "Челик отомстил 2",
+		() => "pukofrukt.mp4",
+		() => "барабулька 🤣🤣"
 ];
 
 
