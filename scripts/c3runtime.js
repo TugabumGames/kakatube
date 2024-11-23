@@ -4466,6 +4466,7 @@ self.C3_JsPropNameTable = [
 	{Barabulka: 0},
 	{zrya2: 0},
 	{pukofruktpoop: 0},
+	{Комменты: 0},
 	{приветствие: 0},
 	{Видео: 0},
 	{Имя: 0},
@@ -4514,7 +4515,8 @@ self.InstanceType = {
 	Laymiki: class extends self.IIframeInstance {},
 	Barabulka: class extends self.IIframeInstance {},
 	zrya2: class extends self.IIframeInstance {},
-	pukofruktpoop: class extends self.IIframeInstance {}
+	pukofruktpoop: class extends self.IIframeInstance {},
+	Комменты: class extends self.IIframeInstance {}
 }
 }
 
